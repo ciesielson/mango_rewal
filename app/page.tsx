@@ -6,10 +6,19 @@ export default function Home() {
         <div className={styles.container}>
             <header>
                 <nav className={styles.navbar}>
-                    TESKT
-                    <div className="container-h">
-                        <div className="navbar-header"></div>
-                        <div className="collapse navbar-collapse"></div>
+                    <div className={styles.navbar_bucket}>
+                        <div>
+                            <button className="logo">HEJA</button>
+                            <span className="telnumber">123456</span>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </header>

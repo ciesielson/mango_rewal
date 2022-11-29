@@ -1,21 +1,32 @@
 .container {
-    padding: 0 2rem;
 }
 
 .navbar {
-    position: relative;
+    background-color: rgba(177, 167, 167, 0.366);
+    height: 5rem;
+    /* position: relative;
     min-height: 80px;
     margin-bottom: 27px;
     border: 1px solid transparent;
     background-color: rgb(159, 54, 54);
     border-color: rgb(213, 244, 100);
     border-width: 20px;
-    top: 0;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    top: 0; */
 }
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    padding-right: 5rem;
+}
+
+.navbar_bucket {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar:after,
 .navbar:before {
     content: ' ';
