@@ -4,14 +4,22 @@
 .navbar {
     background-color: rgba(177, 167, 167, 0.366);
     height: 5rem;
-    /* position: relative;
-    min-height: 80px;
-    margin-bottom: 27px;
-    border: 1px solid transparent;
-    background-color: rgb(159, 54, 54);
-    border-color: rgb(213, 244, 100);
-    border-width: 20px;
-    top: 0; */
+}
+
+.navbar_bucket {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_left {
+    display: flex;
+    gap: 5rem;
 }
 
 .navbar ul {
@@ -22,9 +30,19 @@
     padding-right: 5rem;
 }
 
-.navbar_bucket {
-    display: flex;
-    justify-content: space-between;
+.navbar ul li {
+    padding: 1rem;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+    text-decoration: underline;
+}
+
+.reservation {
+    border: none;
+    background-color: red;
 }
 
 .navbar:after,
@@ -43,13 +61,15 @@
 }
 
 .main {
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('./../public/mango.jpg');
+    background-size: cover;
 }
 
 .footer {
@@ -75,6 +95,7 @@
     font-style: normal;
     font-weight: 800;
     letter-spacing: -0.025em;
+    color: white;
 }
 
 .title a {

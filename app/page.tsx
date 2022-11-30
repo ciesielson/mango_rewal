@@ -7,17 +7,23 @@ export default function Home() {
             <header>
                 <nav className={styles.navbar}>
                     <div className={styles.navbar_bucket}>
-                        <div>
-                            <button className="logo">HEJA</button>
-                            <span className="telnumber">123456</span>
+                        <div className={styles.navbar_left}>
+                            <button className="logo">LOGO</button>
+                            <span className="telnumber">&#x260E; +48 506 038 978</span>
                         </div>
-                        <div>
+                        <div className={styles.navbar_right}>
                             <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>4</li>
+                                <li>
+                                    <a href="http://mango-rewal.pl/domki-kempingowe/">Pokoje</a>
+                                </li>
+                                <li>Mango</li>
+                                <li>Galeria</li>
+                                <li>Rewal</li>
+                                <li>Kontakt</li>
                             </ul>
+                            <div>
+                                <button className={styles.reservation}>REZERWACJA</button>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -25,7 +31,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Hello <a href="https://nextjs.org">Next.js!</a>
+                    Hello <a href="http://mango-rewal.pl/">Mango!</a>
                 </h1>
 
                 <p className={styles.description}>
