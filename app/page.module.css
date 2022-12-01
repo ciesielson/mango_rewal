@@ -54,12 +54,6 @@
     clear: both;
 }
 
-.navbar-default {
-}
-
-.navbar-fixed-top {
-}
-
 .main {
     min-height: 80vh;
     padding: 4rem 0;
@@ -70,6 +64,51 @@
     align-items: center;
     background-image: url('./../public/mango.jpg');
     background-size: cover;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing {
+    display: flex;
+    padding: 8rem;
+    flex-direction: column;
+    min-height: 80vh;
+    background-image: url('./../public/mango.jpg');
+    background-size: cover;
+    color: rgb(255, 137, 76);
+    text-shadow: 0 1px 3px #000;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subpages {
+    display: flex;
+    gap: 10rem;
+    justify-content: flex-start;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: white;
 }
 
 .footer {
@@ -86,16 +125,6 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-}
-
-.title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    color: white;
 }
 
 .title a {
